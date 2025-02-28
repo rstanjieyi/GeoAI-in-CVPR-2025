@@ -4,7 +4,7 @@
 
 ## 📢 Latest Updates
 :fire::fire::fire: Last Updated on 2025.02.28 :fire::fire::fire:
-- **2025.02.28**: Update 1 paper.
+- **2025.02.28**: Update 3 paper.
 
 
 ## :memo: CVPR 2025 Accepted Paper List
