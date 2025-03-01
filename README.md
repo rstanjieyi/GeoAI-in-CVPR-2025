@@ -66,3 +66,25 @@
     <summary>Abstract (Click to expand):</summary>
     Remote sensing image object detection (RSIOD) aims to identify and locate specific objects within satellite or aerial imagery. However, there is a scarcity of labeled data in current RSIOD datasets, which significantly limits the performance of current detection algorithms. Although existing techniques, e.g., data augmentation and semi-supervised learning, can mitigate this scarcity issue to some extent, they are heavily dependent on high-quality labeled data and perform worse in rare object classes. To address this issue, this paper proposes a layout-controllable diffusion generative model (i.e. AeroGen) tailored for RSIOD. To our knowledge, AeroGen is the first model to simultaneously support horizontal and rotated bounding box condition generation, thus enabling the generation of high-quality synthetic images that meet specific layout and object category requirements. Additionally, we propose an end-to-end data augmentation framework that integrates a diversity-conditioned generator and a filtering mechanism to enhance both the diversity and quality of generated data. Experimental results demonstrate that the synthetic data produced by our method are of high quality and diversity. Furthermore, the synthetic RSIOD data can significantly improve the detection performance of existing RSIOD models, i.e., the mAP metrics on DIOR, DIOR-R, and HRSC datasets are improved by 3.7%, 4.3%, and 2.43%, respectively. The code is available at https://github.com/Sonettoo/AeroGen.
   </details>
+
+
+#### Cross-Rejective Open-Set SAR Image Registration
+
+> 毛莎莎，路世明，杜召龙，焦李成，缑水平，牟伦田，鲁学权，熊霖，张艺蒙
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    合成孔径雷达（SAR）图像配准是遥感科学应用中的一项关键上游任务，通常以两幅图像预提取的关键点作为观测对象进行匹配点对搜索。通常，配准被视为一种典型的闭集分类问题，即强制将每个关键点归类到已知类别中，却忽视了大量冗余关键点超出预设类别的本质问题，这不可避免地会导致捕捉到错误的匹配点对。基于此，我们提出了一种跨域拒绝开集SAR图像配准方法，简称CroR-OSIR。在这项工作中，冗余关键点被视为分布外(OOD)样本，将配准问题重新定义为一种特殊的开集任务。该算法主要包含两个模块：监督对比特征提取模块(SupCon)和跨域拒绝开集识别模块(CroR-OSR)。区别于传统开放集识别，CroR-OSR模块中所有样本(包括OOD样本)均可用于训练，并在两幅图像的独立开集域中进行闭集分类，通过设计跨域拒绝机制，利用置信度和一致性对样本点进行评估，有效排除非配准点对的OOD样本。此外，将CroR-OSR模块输出的跨域估计标签反馈至SupCon模块，以增强关键点特征的判别性。实验结果表明，所提出的方法在配准精度上优于当前最先进的方法。
+  </details>
+
+#### Feature Spectrum Learning for Remote Sensing Change Detection
+
+> 臧琪，赵栋，王爽，权豆，焦李成，钟准
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    变化检测（CD）对地球观测具有重要意义，其中由成像环境因素引起的双时相图像之间的伪变化是关键挑战。现有的方法主要将伪变化视为一种风格转移，并通过使用生成对抗网络（GANs）将双时相图像转化为相同风格来缓解这一问题。然而，这些方法的努力受到优化GANs复杂性和缺乏物理属性指导的限制。本文发现，谱变换（ST）有潜力通过在频域中对齐承载风格的信息来减轻伪变化。然而，ST的优势在很大程度上受到两个缺点的制约：1）有限的变换空间和2）低效的参数搜索。为了解决这些限制，我们提出了特征谱学习（FeaSpect），在潜在空间中自适应地消除伪变化。针对缺点1），FeaSpect通过特征谱变换（FST）引导变换走向风格对齐的判别性特征。针对缺点2），FeaSpect使得FST可以训练，从而通过自适应注意力提取框和可学习步幅提取框高效地发现最优参数。大量实验表明，我们的方法显著优于现有方法，并在准确性和效率之间实现了良好的权衡。更重要的是，我们的方法可以轻松地嵌入到其他框架中，获得一致的提升。
+  </details>
