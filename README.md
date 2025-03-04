@@ -100,3 +100,14 @@
     <summary>Abstract (Click to expand):</summary>
     变化检测（CD）对地球观测具有重要意义，其中由成像环境因素引起的双时相图像之间的伪变化是关键挑战。现有的方法主要将伪变化视为一种风格转移，并通过使用生成对抗网络（GANs）将双时相图像转化为相同风格来缓解这一问题。然而，这些方法的努力受到优化GANs复杂性和缺乏物理属性指导的限制。本文发现，谱变换（ST）有潜力通过在频域中对齐承载风格的信息来减轻伪变化。然而，ST的优势在很大程度上受到两个缺点的制约：1）有限的变换空间和2）低效的参数搜索。为了解决这些限制，我们提出了特征谱学习（FeaSpect），在潜在空间中自适应地消除伪变化。针对缺点1），FeaSpect通过特征谱变换（FST）引导变换走向风格对齐的判别性特征。针对缺点2），FeaSpect使得FST可以训练，从而通过自适应注意力提取框和可学习步幅提取框高效地发现最优参数。大量实验表明，我们的方法显著优于现有方法，并在准确性和效率之间实现了良好的权衡。更重要的是，我们的方法可以轻松地嵌入到其他框架中，获得一致的提升。
   </details>
+
+#### Towards Generalizable Scene Change Detection
+
+> Jaewoo Kim, Uehwan Kim
+* Paper: https://arxiv.org/abs/2409.06214
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    While current state-of-the-art Scene Change Detection (SCD) approaches achieve impressive results in well-trained research data, they become unreliable under unseen environments and different temporal conditions; in-domain performance drops from 77.6% to 8.0% in a previously unseen environment and to 4.6% under a different temporal condition -- calling for generalizable SCD and benchmark. In this work, we propose the Generalizable Scene Change Detection Framework (GeSCF), which addresses unseen domain performance and temporal consistency -- to meet the growing demand for anything SCD. Our method leverages the pre-trained Segment Anything Model (SAM) in a zero-shot manner. For this, we design Initial Pseudo-mask Generation and Geometric-Semantic Mask Matching -- seamlessly turning user-guided prompt and single-image based segmentation into scene change detection for a pair of inputs without guidance. Furthermore, we define the Generalizable Scene Change Detection (GeSCD) benchmark along with novel metrics and an evaluation protocol to facilitate SCD research in generalizability. In the process, we introduce the ChangeVPR dataset, a collection of challenging image pairs with diverse environmental scenarios -- including urban, suburban, and rural settings. Extensive experiments across various datasets demonstrate that GeSCF achieves an average performance gain of 19.2% on existing SCD datasets and 30.0% on the ChangeVPR dataset, nearly doubling the prior art performance. We believe our work can lay a solid foundation for robust and generalizable SCD research.
+  </details>
+
