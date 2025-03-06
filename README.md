@@ -9,6 +9,8 @@
 
 ## :memo: CVPR 2025 Accepted Paper List
 
+
+
 #### AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities
 
 > Guillaume Astruc, Nicolas Gonthier, Clement Mallet, Loic Landrieu.
@@ -21,7 +23,7 @@
     Geospatial models must adapt to the diversity of Earth observation data in terms of resolutions, scales, and modalities. However, existing approaches expect fixed input configurations, which limits their practical applicability. We propose AnySat, a multimodal model based on joint embedding predictive architecture (JEPA) and resolution-adaptive spatial encoders, allowing us to train a single model on highly heterogeneous data in a self-supervised manner. To demonstrate the advantages of this unified approach, we compile GeoPlex, a collection of 5 multimodal datasets with varying characteristics and 11 distinct sensors. We then train a single powerful model on these diverse datasets simultaneously. Once fine-tuned, we achieve better or near state-of-the-art results on the datasets of GeoPlex and 4 additional ones for 5 environment monitoring tasks: land cover mapping, tree species identification, crop type classification, change detection, and flood segmentation. The code and models are available at this https [URL](https://github.com/gastruc/AnySat).
   </details>
 
-### Open-Canopy: Towards Very High Resolution Forest Monitoring
+#### Open-Canopy: Towards Very High Resolution Forest Monitoring
 
 > Fajwel Fogel, Yohann Perron, Nikola Besic, Laurent Saint-André, Agnès Pellissier-Tanon, Martin Schwartz, Thomas Boudras, Ibrahim Fayad, Alexandre d’Aspremont, Loic Landrieu, Phillipe Ciais
 
@@ -34,7 +36,7 @@
   </details>
 
 
-### Around the World in 80 Timesteps: A Generative Approach to Global Visual Geolocation
+#### Around the World in 80 Timesteps: A Generative Approach to Global Visual Geolocation
 
 > Nicolas Dufour, David Picard, Vicky Kalogeiton, Loic Landrieu. 
 
