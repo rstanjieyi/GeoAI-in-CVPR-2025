@@ -9,7 +9,7 @@
 
 ## :memo: CVPR 2025 Accepted Paper List
 
-####  AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities
+#### AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities
 
 > Guillaume Astruc, Nicolas Gonthier, Clement Mallet, Loic Landrieu.
 
