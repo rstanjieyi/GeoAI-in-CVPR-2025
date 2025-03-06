@@ -9,6 +9,43 @@
 
 ## :memo: CVPR 2025 Accepted Paper List
 
+####  AnySat: An Earth Observation Model for Any Resolutions, Scales, and Modalities
+
+> Guillaume Astruc, Nicolas Gonthier, Clement Mallet, Loic Landrieu.
+
+* Paper: https://arxiv.org/abs/2412.14123
+* project: https://gastruc.github.io/anysat
+* Code: https://github.com/gastruc/AnySat
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Geospatial models must adapt to the diversity of Earth observation data in terms of resolutions, scales, and modalities. However, existing approaches expect fixed input configurations, which limits their practical applicability. We propose AnySat, a multimodal model based on joint embedding predictive architecture (JEPA) and resolution-adaptive spatial encoders, allowing us to train a single model on highly heterogeneous data in a self-supervised manner. To demonstrate the advantages of this unified approach, we compile GeoPlex, a collection of 5 multimodal datasets with varying characteristics and 11 distinct sensors. We then train a single powerful model on these diverse datasets simultaneously. Once fine-tuned, we achieve better or near state-of-the-art results on the datasets of GeoPlex and 4 additional ones for 5 environment monitoring tasks: land cover mapping, tree species identification, crop type classification, change detection, and flood segmentation. The code and models are available at this https [URL](https://github.com/gastruc/AnySat).
+  </details>
+
+### Open-Canopy: Towards Very High Resolution Forest Monitoring
+
+> Fajwel Fogel, Yohann Perron, Nikola Besic, Laurent Saint-André, Agnès Pellissier-Tanon, Martin Schwartz, Thomas Boudras, Ibrahim Fayad, Alexandre d’Aspremont, Loic Landrieu, Phillipe Ciais
+
+* Paper: https://arxiv.org/pdf/2407.09392
+* Code: https://github.com/fajwel/Open-Canopy
+* Data: https://huggingface.co/datasets/AI4Forest/Open-Canopy
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Estimating canopy height and its changes at meter resolution from satellite imagery is a significant challenge in computer vision with critical environmental applications. However, the lack of open-access datasets at this resolution hinders the reproducibility and evaluation of models. We introduce Open-Canopy, the first open-access, country-scale benchmark for very high-resolution (1.5 m) canopy height estimation, covering over 87,000 km2 across France with 1.5 m resolution satellite imagery and aerial LiDAR data. Additionally, we present Open-Canopy-Δ, a benchmark for canopy height change detection between images from different years at tree level-a challenging task for current computer vision models. We evaluate state-of-the-art architectures on these benchmarks, highlighting significant challenges and opportunities for improvement. Our datasets and code are publicly available at this https [URL](https://github.com/fajwel/Open-Canopy).
+  </details>
+
+
+### Around the World in 80 Timesteps: A Generative Approach to Global Visual Geolocation
+
+> Nicolas Dufour, David Picard, Vicky Kalogeiton, Loic Landrieu. 
+
+* Paper: https://arxiv.org/abs/2412.06781
+* Project: https://nicolas-dufour.github.io/plonk
+* Code: https://github.com/nicolas-dufour/plonk
+* Demo: https://huggingface.co/spaces/nicolas-dufour/Plonk
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Global visual geolocation predicts where an image was captured on Earth. Since images vary in how precisely they can be localized, this task inherently involves a significant degree of ambiguity. However, existing approaches are deterministic and overlook this aspect. In this paper, we aim to close the gap between traditional geolocalization and modern generative methods. We propose the first generative geolocation approach based on diffusion and Riemannian flow matching, where the denoising process operates directly on the Earth's surface. Our model achieves state-of-the-art performance on three visual geolocation benchmarks: OpenStreetView-5M, YFCC-100M, and iNat21. In addition, we introduce the task of probabilistic visual geolocation, where the model predicts a probability distribution over all possible locations instead of a single point. We introduce new metrics and baselines for this task, demonstrating the advantages of our diffusion-based approach. Codes and models are [available.](https://nicolas-dufour.github.io/plonk)
+  </details>
 
 #### RANGE: Retrieval Augmented Neural Fields for Multi-Resolution Geo-Embeddings
 
