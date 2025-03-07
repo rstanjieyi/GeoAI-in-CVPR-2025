@@ -3,8 +3,8 @@
 :star2:**A collection of papers related to Geo-spatial Information Science in CVPR 2025.**
 
 ## 📢 Latest Updates
-:fire::fire::fire: Last Updated on 2025.02.28 :fire::fire::fire:
-- **2025.02.28**: Update 3 paper.
+:fire::fire::fire: Last Updated on 2025.03.07 :fire::fire::fire:
+- **2025.03.07**: Update 1 paper.
 
 
 ## :memo: CVPR 2025 Accepted Paper List
