@@ -176,6 +176,50 @@
 
   </details>
 
+#### Effective Cloud Removal for Remote Sensing Images by an Improved Mean-Reverting Denoising Model with Elucidated Design Space
+
+> Yi Liu, Wengen Li, Jihong Guan, Shuigeng Zhou, Yichao Zhang
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
+#### RobSense: A Robust Multi-modal Foundation Model for Remote Sensing with Static, Temporal, and Incomplete Data Adaptability
+
+> Kha Do, Kang Han, Phu Lai, Khoa T. Phan, Wei Xiang
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+#### RSVOS-SAM: High-Quality Interactive Segmentation for Remote Sensing Video Object
+
+> Zhe Shan, Yang Liu, Lei Zhou, Cheng Yan, Heng Wang, Xia Xie
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+#### A General Adaptive Dual-level Weighting Mechanism for Remote Sensing Pansharpening
+
+> Jie Huang, Haorui Chen, Jiaxuan Ren, Siran Peng, Liang-Jian Deng
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
 
   
 #### Cross-Rejective Open-Set SAR Image Registration
@@ -191,7 +235,7 @@
 
 #### Feature Spectrum Learning for Remote Sensing Change Detection
 
-> 臧琪，赵栋，王爽，权豆，焦李成，钟准
+> Qi Zang, Dong Zhao, Shuang Wang, Dou Quan, Licheng Jiao, Zhun Zhong
 * Paper: None
 * Dataset and code: None
 * <details>
