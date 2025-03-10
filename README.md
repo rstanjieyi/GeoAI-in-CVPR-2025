@@ -152,6 +152,31 @@
 
   </details>
 
+
+#### SkySense-O: Towards Open-World Remote Sensing Interpretation with Vision-Centric Visual-Language Modeling
+
+> Qi Zhu, Jiangwei Lao, Deyi Ji, Junwei Luo, Kang Wu, Yingying Zhang, Lixiang Ru, Jian Wang, Ming Yang, Dong Liu, Feng Zhao
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
+#### HyperFree: A Channel-adaptive and Tuning-free Foundation Model for Hyperspectral Remote Sensing Imagery
+
+> Yingyi Liu, XINYU WANG, Yunning Peng, Chen Sun, Shaoyu Wang, Zhendong Sun, Tian Ke, Tangwei Lu, Anran Zhao, Yanfei Zhong
+
+* Paper: None
+* Dataset and code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
   
 #### Cross-Rejective Open-Set SAR Image Registration
 
