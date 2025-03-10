@@ -3,8 +3,8 @@
 :star2:**A collection of papers related to Geo-spatial Information Science in CVPR 2025.**
 
 ## 📢 Latest Updates
-:fire::fire::fire: Last Updated on 2025.03.07 :fire::fire::fire:
-- **2025.03.07**: Update 1 paper.
+:fire::fire::fire: Last Updated on 2025.03.10 :fire::fire::fire:
+- **2025.03.10**: Update 20 paper.
 
 
 ## :memo: CVPR 2025 Accepted Paper List
@@ -71,6 +71,30 @@
 * <details>
     <summary>Abstract (Click to expand):</summary>
     Automated analysis of vast Earth observation data via interactive Vision-Language Models (VLMs) can unlock new opportunities for environmental monitoring, disaster response, and resource management. Existing generic VLMs do not perform well on Remote Sensing data, while the recent Geo-spatial VLMs remain restricted to a fixed resolution and few sensor modalities. In this paper, we introduce EarthDial, a conversational assistant specifically designed for Earth Observation (EO) data, transforming complex, multi-sensory Earth observations into interactive, natural language dialogues. EarthDial supports multi-spectral, multi-temporal, and multi-resolution imagery, enabling a wide range of remote sensing tasks, including classification, detection, captioning, question answering, visual reasoning, and visual grounding. To achieve this, we introduce an extensive instruction tuning dataset comprising over 11.11M instruction pairs covering RGB, Synthetic Aperture Radar (SAR), and multispectral modalities such as Near-Infrared (NIR) and infrared. Furthermore, EarthDial handles bi-temporal and multi-temporal sequence analysis for applications like change detection. Our extensive experimental results on 37 downstream applications demonstrate that EarthDial outperforms existing generic and domain-specific models, achieving better generalization across various EO tasks.
+  </details>
+
+#### IceDiff: High Resolution and High-Quality Arctic Sea Ice Forecasting with Generative Diffusion Prior
+
+> Jingyi Xu, Siwei Tu, Weidong Yang, Shuhao Li, Keyi Liu, Yeqi Luo, Lipeng Ma, Ben Fei, Lei Bai
+
+* Paper: https://arxiv.org/abs/2410.09111
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Variation of Arctic sea ice has significant impacts on polar ecosystems, transporting routes, coastal communities, and global climate. Tracing the change of sea ice at a finer scale is paramount for both operational applications and scientific studies. Recent pan-Arctic sea ice forecasting methods that leverage advances in artificial intelligence has made promising progress over numerical models. However, forecasting sea ice at higher resolutions is still under-explored. To bridge the gap, we propose a two-staged deep learning framework, IceDiff, to forecast sea ice concentration at finer scales. IceDiff first leverages an independently trained vision transformer to generate coarse yet superior forecasting over previous methods at a regular 25km x 25km grid. This high-quality sea ice forecasting can be utilized as reliable guidance for the next stage. Subsequently, an unconditional diffusion model pre-trained on sea ice concentration maps is utilized for sampling down-scaled sea ice forecasting via a zero-shot guided sampling strategy and a patch-based method. For the first time, IceDiff demonstrates sea ice forecasting with the 6.25km x 6.25km resolution. IceDiff extends the boundary of existing sea ice forecasting models and more importantly, its capability to generate high-resolution sea ice concentration data is vital for pragmatic usages and research.
+  </details>
+
+
+#### PointSR: Self-regularized Point Supervision for Drone-view Object Detection
+
+> Weizhuo Li, Yue Xi, Wenjing Jia, zehao zhang, Fei Li, Xiangzeng Liu, Qiguang Miao
+
+* Paper: https://faculty.xidian.edu.cn/LIUXIANGZENG/zh_CN/lwcg/405906/content/281985.htm
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Point-Supervised Object Detection (PSOD) in a discriminative style has recently gained significant attention for its impressive detection performance and cost-effectiveness.However, accurately predicting high-quality pseudo-box labels for drone-view images, which often feature densely packed small objects, remains a challenge. This difficulty arises primarily from the limitation of rigid sampling strategies, which hinder the optimization of pseudo-boxes. To address this, we propose PointSR, an effective and robust point-supervised object detection framework with self-regularized sampling that integrates temporal and informative constraints throughout the pseudo-box generation process. Specifically, the framework comprises three key components: Temporal-Ensembling Encoder (TE Encoder), Coarse Pseudo-box Prediction, and Pseudo-box Refinement. The TE Encoder builds an anchor prototype library by aggregating temporal information for dynamic anchor adjustment. In Coarse Pseudo-box Prediction, anchors are refined using the prototype library, and a set of informative samples is collected for subsequent refinement. During Pseudo-box Refinement, these informative negative sam-
+ples are used to suppress low-confidence candidate positive samples, thereby improving the quality of the pseudo boxes. Experimental results on benchmark datasets demonstrate that PointSR significantly outperforms state-of-the-art methods, achieving up to 3.3%~ 7.2% higher AP50 using only point supervision. Additionally, it exhibits strong robustness to perturbation in human-labeled points.
   </details>
 
 
