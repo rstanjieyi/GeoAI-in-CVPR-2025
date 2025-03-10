@@ -97,6 +97,18 @@
   </details>
 
 
+#### AlphaPre: Amplitude-Phase Disentanglement Model for Precipitation Nowcasting
+
+> Kenghong Lin, Baoquan Zhang, Demin Yu, Wenzhi Feng, Shidong Chen, Feifan Gao, Xutao Li, Yunming Ye
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
 #### Satellite to GroundScape - Large-scale Consistent Ground View Generation from Satellite Views
 
 > Ningli Xu, Rongjun Qin
