@@ -73,6 +73,103 @@
     Automated analysis of vast Earth observation data via interactive Vision-Language Models (VLMs) can unlock new opportunities for environmental monitoring, disaster response, and resource management. Existing generic VLMs do not perform well on Remote Sensing data, while the recent Geo-spatial VLMs remain restricted to a fixed resolution and few sensor modalities. In this paper, we introduce EarthDial, a conversational assistant specifically designed for Earth Observation (EO) data, transforming complex, multi-sensory Earth observations into interactive, natural language dialogues. EarthDial supports multi-spectral, multi-temporal, and multi-resolution imagery, enabling a wide range of remote sensing tasks, including classification, detection, captioning, question answering, visual reasoning, and visual grounding. To achieve this, we introduce an extensive instruction tuning dataset comprising over 11.11M instruction pairs covering RGB, Synthetic Aperture Radar (SAR), and multispectral modalities such as Near-Infrared (NIR) and infrared. Furthermore, EarthDial handles bi-temporal and multi-temporal sequence analysis for applications like change detection. Our extensive experimental results on 37 downstream applications demonstrate that EarthDial outperforms existing generic and domain-specific models, achieving better generalization across various EO tasks.
   </details>
 
+
+#### Hazy Low-Quality Satellite Video Restoration Via Learning Optimal Joint Degradation Patterns and Continuous-Scale Super-Resolution Reconstruction
+
+> Ning Ni, Libao Zhang
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+#### MFogHub: Bridging Multi-Regional and Multi-Satellite Data for Global Marine Fog Detection and Forecasting
+
+> Mengqiu XU, Kaixin Chen, Heng Guo, Yixiang Huang, Ming Wu, Zhenwei Shi, Chuang Zhang, Jun Guo
+
+* Paper: None
+* Code: https://github.com/kaka0910/MFogHub
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    We introduce the MFogHub dataset—the first multi-regional, multi-satellite dataset for global marine fog detection and forecasting. MFogHub contains over 68,000 samples, and spans 15 coastal fog-prone regions, consolidating 693 marine fog events. The dataset captures multi-band meteorological data from 6 geostationary satellites. The minimum time interval is 30 minutes, with a spatial resolution of 1 km and a size of 1024 × 1024 pixels. Additionally, more than 11,600 samples are meticulously annotated at the pixel level by meteorological experts.
+  </details>
+
+
+#### Satellite to GroundScape - Large-scale Consistent Ground View Generation from Satellite Views
+
+> Ningli Xu, Rongjun Qin
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
+#### Gaussian Splatting for Efficient Satellite Image Photogrammetry
+
+> Luca Savant Aira, Gabriele Facciolo, Thibaud Ehret
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
+#### SGFormer: Satellite-Ground Fusion for 3D Semantic Scene Completion
+
+> Xiyue Guo, Jiarui Hu, Junjie Hu, Hujun Bao, Guofeng Zhang
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
+#### Satellite Observations-guided Diffusion Model for Accurate Meteorological States at Arbitrary Resolution
+
+> Siwei Tu, Ben Fei, Weidong Yang, Fenghua Ling, Hao Chen, Zili Liu, Kun Chen, Hang Fan, Wanli Ouyang, Lei Bai
+
+* Paper: https://arxiv.org/abs/2502.07814v1
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Accurate acquisition of surface meteorological conditions at arbitrary locations holds significant importance for weather forecasting and climate simulation. Due to the fact that meteorological states derived from satellite observations are often provided in the form of low-resolution grid fields, the direct application of spatial interpolation to obtain meteorological states for specific locations often results in significant discrepancies when compared to actual observations. Existing downscaling methods for acquiring meteorological state information at higher resolutions commonly overlook the correlation with satellite observations. To bridge the gap, we propose Satellite-observations Guided Diffusion Model (SGD), a conditional diffusion model pre-trained on ERA5 reanalysis data with satellite observations (GridSat) as conditions, which is employed for sampling downscaled meteorological states through a zero-shot guided sampling strategy and patch-based methods. During the training process, we propose to fuse the information from GridSat satellite observations into ERA5 maps via the attention mechanism, enabling SGD to generate atmospheric states that align more accurately with actual conditions. In the sampling, we employed optimizable convolutional kernels to simulate the upscale process, thereby generating high-resolution ERA5 maps using low-resolution ERA5 maps as well as observations from weather stations as guidance. Moreover, our devised patch-based method promotes SGD to generate meteorological states at arbitrary resolutions. Experiments demonstrate SGD fulfills accurate meteorological states downscaling to 6.25km.
+  </details>
+
+
+#### Exact: Exploring Space-Time Perceptive Clues for Weakly Supervised Satellite Image Time Series Semantic Segmentation
+
+> Hao Zhu, Yan Zhu, Jiayu Xiao, Tianxiang Xiao, Yike Ma, Yucheng Zhang, Feng Dai
+
+* Paper: https://arxiv.org/abs/2412.03968
+* Code: https://github.com/MiSsU-HH/Exact
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Automated crop mapping through Satellite Image Time Series (SITS) has emerged as a crucial avenue for agricultural monitoring and management. However, due to the low resolution and unclear parcel boundaries, annotating pixel-level masks is exceptionally complex and time-consuming in SITS. This paper embraces the weakly supervised paradigm (i.e., only image-level categories available) to liberate the crop mapping task from the exhaustive annotation burden. The unique characteristics of SITS give rise to several challenges in weakly supervised learning: (1) noise perturbation from spatially neighboring regions, and (2) erroneous semantic bias from anomalous temporal periods. To address the above difficulties, we propose a novel method, termed exploring space-time perceptive clues (Exact). First, we introduce a set of spatial clues to explicitly capture the representative patterns of different crops from the most class-relative regions. Besides, we leverage the temporal-to-class interaction of the model to emphasize the contributions of pivotal clips, thereby enhancing the model perception for crop regions. Build upon the space-time perceptive clues, we derive the clue-based CAMs to effectively supervise the SITS segmentation network. Our method demonstrates impressive performance on various SITS benchmarks. Remarkably, the segmentation network trained on Exact-generated masks achieves 95% of its fully supervised performance, showing the bright promise of weakly supervised paradigm in crop mapping scenario.
+  </details>
+
+
+
+#### Benchmarking Object Detectors under Real-World Distribution Shifts in Satellite Imagery
+
+> Sara Al-Emadi, Yin Yang, Ferda Ofli
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
 #### The Change You Want To Detect: Semantic Change Detection In Earth Observation With Hybrid Data Generation
 
 > Yanis Benidir, Nicolas Gonthier, Clement Mallet
