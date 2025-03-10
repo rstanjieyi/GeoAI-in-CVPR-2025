@@ -109,6 +109,19 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
   </details>
 
+
+#### Meta-Learning Hyperparameters for Foundation Model Adaptation in Remote-Sensing Imagery
+
+> Zichen Tian, Yaoyao Liu, Qianru Sun
+
+* Paper: None
+* Code: None
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+
+  </details>
+
+
 #### MFogHub: Bridging Multi-Regional and Multi-Satellite Data for Global Marine Fog Detection and Forecasting
 
 > Mengqiu XU, Kaixin Chen, Heng Guo, Yixiang Huang, Ming Wu, Zhenwei Shi, Chuang Zhang, Jun Guo
