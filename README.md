@@ -405,7 +405,7 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
   
 #### Cross-Rejective Open-Set SAR Image Registration
 
-> 毛莎莎，路世明，杜召龙，焦李成，缑水平，牟伦田，鲁学权，熊霖，张艺蒙
+> Shasha Mao, Shiming Lu, Zhaolong Du, Licheng Jiao, Shuiping Gou, Luntian Mou, Xuequan Lu, Lin Xiong, Yimeng Zhang
 
 * Paper: None
 * Dataset and code: None
