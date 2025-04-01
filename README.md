@@ -67,7 +67,7 @@
 > Sagar Soni, Akshay Dudhane, Hiyam Debary, Mustansar Fiaz, Muhammad Akhtar Munir, Muhammad Sohail Danish, Paolo Fraccaro, Campbell D Watson, Levente J Klein, Fahad Shahbaz Khan, Salman Khan
 
 * Paper: https://arxiv.org/abs/2412.15190v1
-* Code: None
+* Code: https://github.com/hiyamdebary/EarthDial
 * <details>
     <summary>Abstract (Click to expand):</summary>
     Automated analysis of vast Earth observation data via interactive Vision-Language Models (VLMs) can unlock new opportunities for environmental monitoring, disaster response, and resource management. Existing generic VLMs do not perform well on Remote Sensing data, while the recent Geo-spatial VLMs remain restricted to a fixed resolution and few sensor modalities. In this paper, we introduce EarthDial, a conversational assistant specifically designed for Earth Observation (EO) data, transforming complex, multi-sensory Earth observations into interactive, natural language dialogues. EarthDial supports multi-spectral, multi-temporal, and multi-resolution imagery, enabling a wide range of remote sensing tasks, including classification, detection, captioning, question answering, visual reasoning, and visual grounding. To achieve this, we introduce an extensive instruction tuning dataset comprising over 11.11M instruction pairs covering RGB, Synthetic Aperture Radar (SAR), and multispectral modalities such as Near-Infrared (NIR) and infrared. Furthermore, EarthDial handles bi-temporal and multi-temporal sequence analysis for applications like change detection. Our extensive experimental results on 37 downstream applications demonstrate that EarthDial outperforms existing generic and domain-specific models, achieving better generalization across various EO tasks.
@@ -78,7 +78,7 @@
 > Jingyi Xu, Siwei Tu, Weidong Yang, Shuhao Li, Keyi Liu, Yeqi Luo, Lipeng Ma, Ben Fei, Lei Bai
 
 * Paper: https://arxiv.org/abs/2410.09111
-* Code: None
+* Code: https://github.com/EtronTech/IceDiff
 * <details>
     <summary>Abstract (Click to expand):</summary>
     Variation of Arctic sea ice has significant impacts on polar ecosystems, transporting routes, coastal communities, and global climate. Tracing the change of sea ice at a finer scale is paramount for both operational applications and scientific studies. Recent pan-Arctic sea ice forecasting methods that leverage advances in artificial intelligence has made promising progress over numerical models. However, forecasting sea ice at higher resolutions is still under-explored. To bridge the gap, we propose a two-staged deep learning framework, IceDiff, to forecast sea ice concentration at finer scales. IceDiff first leverages an independently trained vision transformer to generate coarse yet superior forecasting over previous methods at a regular 25km x 25km grid. This high-quality sea ice forecasting can be utilized as reliable guidance for the next stage. Subsequently, an unconditional diffusion model pre-trained on sea ice concentration maps is utilized for sampling down-scaled sea ice forecasting via a zero-shot guided sampling strategy and a patch-based method. For the first time, IceDiff demonstrates sea ice forecasting with the 6.25km x 6.25km resolution. IceDiff extends the boundary of existing sea ice forecasting models and more importantly, its capability to generate high-resolution sea ice concentration data is vital for pragmatic usages and research.
@@ -139,7 +139,7 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 > Kenghong Lin, Baoquan Zhang, Demin Yu, Wenzhi Feng, Shidong Chen, Feifan Gao, Xutao Li, Yunming Ye
 
 * Paper: None
-* Code: None
+* Code: https://github.com/linkenghong/AlphaPre
 * <details>
     <summary>Abstract (Click to expand):</summary>
 
@@ -162,7 +162,8 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
 > Luca Savant Aira, Gabriele Facciolo, Thibaud Ehret
 
-* Paper: None
+* Paper: https://arxiv.org/abs/2412.13047v2
+* Priject: https://mezzelfo.github.io/EOGS/
 * Code: None
 * <details>
     <summary>Abstract (Click to expand):</summary>
@@ -174,8 +175,8 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
 > Xiyue Guo, Jiarui Hu, Junjie Hu, Hujun Bao, Guofeng Zhang
 
-* Paper: None
-* Code: None
+* Paper: https://arxiv.org/abs/2503.16825
+* Code: https://github.com/gxytcrc/SGFormer
 * <details>
     <summary>Abstract (Click to expand):</summary>
 
@@ -187,7 +188,7 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 > Siwei Tu, Ben Fei, Weidong Yang, Fenghua Ling, Hao Chen, Zili Liu, Kun Chen, Hang Fan, Wanli Ouyang, Lei Bai
 
 * Paper: https://arxiv.org/abs/2502.07814v1
-* Code: None
+* Code: https://github.com/Tusiwei/SGD
 * <details>
     <summary>Abstract (Click to expand):</summary>
     Accurate acquisition of surface meteorological conditions at arbitrary locations holds significant importance for weather forecasting and climate simulation. Due to the fact that meteorological states derived from satellite observations are often provided in the form of low-resolution grid fields, the direct application of spatial interpolation to obtain meteorological states for specific locations often results in significant discrepancies when compared to actual observations. Existing downscaling methods for acquiring meteorological state information at higher resolutions commonly overlook the correlation with satellite observations. To bridge the gap, we propose Satellite-observations Guided Diffusion Model (SGD), a conditional diffusion model pre-trained on ERA5 reanalysis data with satellite observations (GridSat) as conditions, which is employed for sampling downscaled meteorological states through a zero-shot guided sampling strategy and patch-based methods. During the training process, we propose to fuse the information from GridSat satellite observations into ERA5 maps via the attention mechanism, enabling SGD to generate atmospheric states that align more accurately with actual conditions. In the sampling, we employed optimizable convolutional kernels to simulate the upscale process, thereby generating high-resolution ERA5 maps using low-resolution ERA5 maps as well as observations from weather stations as guidance. Moreover, our devised patch-based method promotes SGD to generate meteorological states at arbitrary resolutions. Experiments demonstrate SGD fulfills accurate meteorological states downscaling to 6.25km.
@@ -211,8 +212,8 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
 > Sara Al-Emadi, Yin Yang, Ferda Ofli
 
-* Paper: None
-* Code: None
+* Paper: https://arxiv.org/abs/2503.19202
+* Code: https://github.com/RWGAI/RWDS
 * <details>
     <summary>Abstract (Click to expand):</summary>
 
@@ -223,8 +224,9 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
 > Yanis Benidir, Nicolas Gonthier, Clement Mallet
 
-* Paper: None
-* Code: None
+* Paper: https://arxiv.org/abs/2503.15683
+* Code: https://github.com/yb23/HySCDG
+* Project: https://yb23.github.io/projects/cywd/
 * <details>
     <summary>Abstract (Click to expand):</summary>
    
@@ -326,8 +328,8 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
 > Fengxiang Wang, hongzhen wang, Zonghao Guo, Di Wang, Yulin Wang, Mingshuo Chen, Qiang Ma, Long Lan, Wenjing Yang, Jing Zhang, Zhiyuan Liu, Maosong Sun
 
-* Paper: None
-* Dataset and code: None
+* Paper: https://arxiv.org/abs/2503.23771
+* Project: https://xlrs-bench.github.io/
 * <details>
     <summary>Abstract (Click to expand):</summary>
 
@@ -342,7 +344,7 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 * Dataset and code: None
 * <details>
     <summary>Abstract (Click to expand):</summary>
-
+    Open-world interpretation aims to accurately localize and recognize all objects within images by vision-language models (VLMs). While substantial progress has been made in this task for natural images, the advancements for remote sensing (RS) images still remain limited, primarily due to these two challenges. 1) Existing RS semantic categories are limited, particularly for pixel-level interpretation datasets. 2) Distinguishing among diverse RS spatial regions solely by language space is challenging due to the dense and intricate spatial distribution in open-world RS imagery. To address the first issue, we develop a fine-grained RS interpretation dataset, Sky-SA, which contains 183,375 high-quality local image-text pairs with full-pixel manual annotations, covering 1,763 category labels, exhibiting richer semantics and higher density than previous datasets. Afterwards, to solve the second issue, we introduce the vision-centric principle for vision-language modeling. Specifically, in the pre-training stage, the visual self-supervised paradigm is incorporated into image-text alignment, reducing the degradation of general visual representation capabilities of existing paradigms. Then, we construct a visual-relevance knowledge graph across open-category texts and further develop a novel vision-centric image-text contrastive loss for fine-tuning with text prompts. This new model, denoted as SkySense-O, demonstrates impressive zero-shot capabilities on a thorough evaluation encompassing 14 datasets over 4 tasks, from recognizing to reasoning and classification to localization. Specifically, it outperforms the latest models such as SegEarth-OV, GeoRSCLIP, and VHM by a large margin, i.e., 11.95\%, 8.04\% and 3.55\% on average respectively. We will release the dataset and model to facilitate future research.
   </details>
 
 
@@ -350,22 +352,24 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 
 > Yingyi Liu, XINYU WANG, Yunning Peng, Chen Sun, Shaoyu Wang, Zhendong Sun, Tian Ke, Tangwei Lu, Anran Zhao, Yanfei Zhong
 
-* Paper: None
-* Dataset and code: None
+* Paper: https://arxiv.org/abs/2503.21841v1
+* Project: https://rsidea.whu.edu.cn/hyperfree.htm
+* Code: https://github.com/Jingtao-Li-CVer/HyperFree
 * <details>
     <summary>Abstract (Click to expand):</summary>
-
+    Advanced interpretation of hyperspectral remote sensing images benefits many precise Earth observation tasks. Recently, visual foundation models have promoted the remote sensing interpretation but concentrating on RGB and multispectral images. Due to the varied hyperspectral channels, existing foundation models would face image-by-image tuning situation, imposing great pressure on hardware and time resources. In this paper, we propose a tuning-free hyperspectral foundation model called HyperFree, by adapting the existing visual prompt engineering. To process varied channel numbers, we design a learned weight dictionary covering full-spectrum from 0.4 ∼ 2.5 µm, supporting to build the embedding layer dynamically. To make the prompt design more tractable, HyperFree can generate
+multiple semantic-aware masks for one prompt by treating feature distance as semantic-similarity. After pre-training HyperFree on constructed large-scale high-resolution hyperspectral images, HyperFree (1 prompt) has shown comparable results with specialized models (5 shots) on 5 tasks and 11 datasets. 
   </details>
 
 #### Effective Cloud Removal for Remote Sensing Images by an Improved Mean-Reverting Denoising Model with Elucidated Design Space
 
 > Yi Liu, Wengen Li, Jihong Guan, Shuigeng Zhou, Yichao Zhang
 
-* Paper: None
-* Dataset and code: None
+* Paper: https://arxiv.org/abs/2503.23717v1
+* Dataset and code: https://github.com/Ly403/EMRDM
 * <details>
     <summary>Abstract (Click to expand):</summary>
-
+    Cloud removal (CR) remains a challenging task in remote sensing image processing. Although diffusion models (DM) exhibit strong generative capabilities, their direct applications to CR are suboptimal, as they generate cloudless images from random noise, ignoring inherent information in cloudy inputs. To overcome this drawback, we develop a new CR model EMRDM based on mean-reverting diffusion models (MRDMs) to establish a direct diffusion process between cloudy and cloudless images. Compared to current MRDMs, EMRDM offers a modular framework with updatable modules and an elucidated design space, based on a reformulated forward process and a new ordinary differential equation (ODE)-based backward process. Leveraging our framework, we redesign key MRDM modules to boost CR performance, including restructuring the denoiser via a preconditioning technique, reorganizing the training process, and improving the sampling process by introducing deterministic and stochastic samplers. To achieve multi-temporal CR, we further develop a denoising network for simultaneously denoising sequential images. Experiments on mono-temporal and multi-temporal datasets demonstrate the superior performance of EMRDM. 
   </details>
 
 
@@ -377,7 +381,7 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 * Dataset and code: None
 * <details>
     <summary>Abstract (Click to expand):</summary>
-
+    Foundation models for remote sensing have garnered increasing attention for their great performance across various observation tasks. However, current models lack robustness when managing diverse input types and handling incomplete data in downstream tasks. In this paper, we propose RobSense, a robust multi-modal foundation model for Multi-spectral and Synthetic Aperture Radar data. RobSense is designed with modular components and pre-trained by a combination of temporal multi-modal and masked autoencoder strategies on a huge-scale dataset. Therefore, it can effectively support diverse input types, from static to temporal, uni-modal to multi-modal. To further handle the incomplete data, we incorporate two uni-modal latent reconstructors to recover rich representations from incomplete inputs, addressing variability in spectral bands and temporal sequence irregularities. Extensive experiments show that RobSense consistently outperforms state-of-the-art baselines on the complete dataset across four input types for segmentation and classification tasks. Furthermore, the proposed model outperforms by considerably larger margins when the missing rate increases in the incomplete datasets.
   </details>
 
 #### RSVOS-SAM: High-Quality Interactive Segmentation for Remote Sensing Video Object
@@ -388,18 +392,18 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 * Dataset and code: None
 * <details>
     <summary>Abstract (Click to expand):</summary>
-
+    The availability of large-scale remote sensing video data underscores the importance of high-quality interactive segmentation. However, challenges such as small object sizes, ambiguous features, and limited generalization make it difficult for current methods to achieve this goal. In this work, we propose RSVOS-SAM, a method designed to achieve high-quality interactive masks while preserving generalization across diverse remote sensing data. The RSVOS-SAM is built upon three key innovations: 1) LoRA-based fine-tuning, which enables efficient domain adaptation while maintaining SAM’s generalization ability, 2) Enhancement of deep network layers to improve the discriminability of extracted features, thereby reducing misclassifications, and 3) Integration of global context with local boundary details in the mask decoder to generate high-quality segmentation masks. Additionally, we redesign the data pipeline to ensure the model learns to better handle objects at varying scales during training while focusing on high-quality predictions during inference. Experiments on remote sensing video datasets show that the redesigned data pipeline boosts the IoU by 6%, while RSVOS-SAM increases the IoU by 13%. Finally, when evaluated on existing remote sensing object tracking datasets, RSVOS-SAM demonstrates impressive zero-shot capabilities, generating masks that closely resemble manual annotations. These results confirm RSVOS-SAM as a powerful tool for fine-grained segmentation in remote sensing applications.
   </details>
 
 #### A General Adaptive Dual-level Weighting Mechanism for Remote Sensing Pansharpening
 
 > Jie Huang, Haorui Chen, Jiaxuan Ren, Siran Peng, Liang-Jian Deng
 
-* Paper: None
-* Dataset and code: None
+* Paper: https://arxiv.org/abs/2503.13214
+* Dataset and code: https://github.com/Jie-1203/ADWM
 * <details>
     <summary>Abstract (Click to expand):</summary>
-
+    Currently, deep learning-based methods for remote sensing pansharpening have advanced rapidly. However, many existing methods struggle to fully leverage feature heterogeneity and redundancy, thereby limiting their effectiveness. We use the covariance matrix to model the feature heterogeneity and redundancy and propose Correlation-Aware Covariance Weighting (CACW) to adjust them. CACW captures these correlations through the covariance matrix, which is then processed by a nonlinear function to generate weights for adjustment. Building upon CACW, we introduce a general adaptive dual-level weighting mechanism (ADWM) to address these challenges from two key perspectives, enhancing a wide range of existing deep-learning methods. First, Intra-Feature Weighting (IFW) evaluates correlations among channels within each feature to reduce redundancy and enhance unique information. Second, Cross-Feature Weighting (CFW) adjusts contributions across layers based on inter-layer correlations, refining the final output. Extensive experiments demonstrate the superior performance of ADWM compared to recent state-of-the-art (SOTA) methods. Furthermore, we validate the effectiveness of our approach through generality experiments, redundancy visualization, comparison experiments, key variables and complexity analysis, and ablation studies. 
   </details>
 
   
@@ -408,10 +412,10 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 > Shasha Mao, Shiming Lu, Zhaolong Du, Licheng Jiao, Shuiping Gou, Luntian Mou, Xuequan Lu, Lin Xiong, Yimeng Zhang
 
 * Paper: None
-* Dataset and code: None
+* Dataset and code: https://github.com/XDyaoshi/CroR-OSIR
 * <details>
     <summary>Abstract (Click to expand):</summary>
-    合成孔径雷达（SAR）图像配准是遥感科学应用中的一项关键上游任务，通常以两幅图像预提取的关键点作为观测对象进行匹配点对搜索。通常，配准被视为一种典型的闭集分类问题，即强制将每个关键点归类到已知类别中，却忽视了大量冗余关键点超出预设类别的本质问题，这不可避免地会导致捕捉到错误的匹配点对。基于此，我们提出了一种跨域拒绝开集SAR图像配准方法，简称CroR-OSIR。在这项工作中，冗余关键点被视为分布外(OOD)样本，将配准问题重新定义为一种特殊的开集任务。该算法主要包含两个模块：监督对比特征提取模块(SupCon)和跨域拒绝开集识别模块(CroR-OSR)。区别于传统开放集识别，CroR-OSR模块中所有样本(包括OOD样本)均可用于训练，并在两幅图像的独立开集域中进行闭集分类，通过设计跨域拒绝机制，利用置信度和一致性对样本点进行评估，有效排除非配准点对的OOD样本。此外，将CroR-OSR模块输出的跨域估计标签反馈至SupCon模块，以增强关键点特征的判别性。实验结果表明，所提出的方法在配准精度上优于当前最先进的方法。
+    Synthetic Aperture Radar (SAR) image registration is an essential upstream task in geoscience applications, in which pre-detected keypoints from two images are employed as observed objects to seek matched-point pairs. In general, the registration is regarded as a typical closed-set classification, which forces each keypoint to be classified into the given classes, but ignoring an essential issue that numerous redundant keypoints are beyond the given classes, which unavoidably results in capturing incorrect matched-point pairs. Based on this, we propose a Cross-Rejective Open-set SAR Image Registration (CroR-OSIR) method. In this work, these redundant keypoints are regarded as out-of-distribution (OOD) samples, and we formulate the registration as a special open-set task with two modules: supervised contrastive feature-tuning and cross-rejective open-set recognition (CroR-OSR). Different from traditional open set recognition, all samples including OOD samples are available in the CroR-OSR module. CroR-OSR conducts the closed-set classifications in individual open-set domains from two images, meanwhile employing the cross-domain rejection during training, to exclude these OOD samples based on confidence and consistency. Moreover, a new supervised contrastive tuning strategy is incorporated for feature-tuning. Especially, the cross-domain estimation labels obtained by CroR-OSR are fed back to the feature-tuning module for feature-tuning, to enhance feature discriminability. Experimental results indicate that the proposed method achieves more precise registration than the state-of-the-art methods.
   </details>
 
 #### Feature Spectrum Learning for Remote Sensing Change Detection
@@ -421,26 +425,17 @@ ples are used to suppress low-confidence candidate positive samples, thereby imp
 * Dataset and code: None
 * <details>
     <summary>Abstract (Click to expand):</summary>
-    变化检测（CD）对地球观测具有重要意义，其中由成像环境因素引起的双时相图像之间的伪变化是关键挑战。现有的方法主要将伪变化视为一种风格转移，并通过使用生成对抗网络（GANs）将双时相图像转化为相同风格来缓解这一问题。然而，这些方法的努力受到优化GANs复杂性和缺乏物理属性指导的限制。本文发现，谱变换（ST）有潜力通过在频域中对齐承载风格的信息来减轻伪变化。然而，ST的优势在很大程度上受到两个缺点的制约：1）有限的变换空间和2）低效的参数搜索。为了解决这些限制，我们提出了特征谱学习（FeaSpect），在潜在空间中自适应地消除伪变化。针对缺点1），FeaSpect通过特征谱变换（FST）引导变换走向风格对齐的判别性特征。针对缺点2），FeaSpect使得FST可以训练，从而通过自适应注意力提取框和可学习步幅提取框高效地发现最优参数。大量实验表明，我们的方法显著优于现有方法，并在准确性和效率之间实现了良好的权衡。更重要的是，我们的方法可以轻松地嵌入到其他框架中，获得一致的提升。
+    Change detection (CD) holds significant implications for Earth observation, in which pseudo-changes between bitemporal images induced by imaging environmental factors are key challenges. Existing methods mainly regard pseudo-changes as a kind of style shift and alleviate it by transforming bitemporal images into the same style using generative adversarial networks (GANs). Nevertheless, their efforts are limited by the complexity of optimizing GANs and the absence of guidance from physical properties. This paper finds that the spectrum transformation (ST) has the potential to mitigate pseudo-changes by aligning in the frequency domain carrying the style. However, the benefit of ST is largely constrained by two drawbacks: 1) limited transformation space and 2) inefficient parameter search. To address these limitations, we propose a Feature Spectrum learning (FeaSpect) that adaptively eliminate pseudo-changes in the latent space. For the drawback 1), FeaSpect directs the transformation towards style-aligned discriminative features via feature spectrum transformation (FST). For the drawback 2), FeaSpect allows FST to be trainable, efficiently discovering optimal parameters via extraction box with adaptive attention and extraction box with learnable strides. Extensive experiments on challenging datasets demonstrate that our method remarkably outperforms existing methods and achieves a commendable trade-off between accuracy and efficiency. Importantly, our method can be easily injected into other frameworks, achieving consistent improvements.
   </details>
 
 
-#### ROS-SAM: High-Quality Interactive Segmentation for Remote Sensing Moving Object
-
-> Zhe Shan et.al
-* Paper: None
-* Dataset and code: None
-* <details>
-    <summary>Abstract (Click to expand):</summary>
-    针对高质量分割遥感视频中运动目标展开研究，提出一种名为ROS-SAM的模型框架。ROS-SAM建立在三个关键创新之上：（1）基于LoRA的微调，在保持SAM泛化能力的同时注入特定的遥感领域知识。（2）增强深度网络层以提高提取特征的可区分性，减少对易混淆物体的误分类。（3）在掩码解码器中将全局上下文与局部边界细节集成以生成高质量的分割掩码。此外，我们重新设计了训练和推理框架，以确保模型在训练过程中能够更好地处理不同尺度的对象，同时在推理过程中专注于高质量的预测。
-  </details>
 
   
 #### Towards Generalizable Scene Change Detection
 
 > Jaewoo Kim, Uehwan Kim
 * Paper: https://arxiv.org/abs/2409.06214
-* Dataset and code: None
+* Dataset and code: https://github.com/1124jaewookim/towards-generalizable-scene-change-detection
 * <details>
     <summary>Abstract (Click to expand):</summary>
     While current state-of-the-art Scene Change Detection (SCD) approaches achieve impressive results in well-trained research data, they become unreliable under unseen environments and different temporal conditions; in-domain performance drops from 77.6% to 8.0% in a previously unseen environment and to 4.6% under a different temporal condition -- calling for generalizable SCD and benchmark. In this work, we propose the Generalizable Scene Change Detection Framework (GeSCF), which addresses unseen domain performance and temporal consistency -- to meet the growing demand for anything SCD. Our method leverages the pre-trained Segment Anything Model (SAM) in a zero-shot manner. For this, we design Initial Pseudo-mask Generation and Geometric-Semantic Mask Matching -- seamlessly turning user-guided prompt and single-image based segmentation into scene change detection for a pair of inputs without guidance. Furthermore, we define the Generalizable Scene Change Detection (GeSCD) benchmark along with novel metrics and an evaluation protocol to facilitate SCD research in generalizability. In the process, we introduce the ChangeVPR dataset, a collection of challenging image pairs with diverse environmental scenarios -- including urban, suburban, and rural settings. Extensive experiments across various datasets demonstrate that GeSCF achieves an average performance gain of 19.2% on existing SCD datasets and 30.0% on the ChangeVPR dataset, nearly doubling the prior art performance. We believe our work can lay a solid foundation for robust and generalizable SCD research.
